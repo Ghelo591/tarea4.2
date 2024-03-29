@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .header {
+    background-color: #4CAF50;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+
+  .container {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  h1 {
+    font-family: "Tac One", sans-serif;
+    font-size: 36px;
+  }
+
+  h2 {
+    font-family: "Tac One", sans-serif;
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .image-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .image-gallery img {
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+  }
